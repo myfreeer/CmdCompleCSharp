@@ -42,6 +42,6 @@ echo Microsoft .NET Framework Needed But Not Found.
 echo Install it and run this script again.
 echo  
 REM this command makes the sound
-timeout /t 123
+timeout /t 123||pause
 exit /B -1
 exit
